@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-dependency-injection",
+  "version": "0.1.0",
+  "description": "Babel plugin: dependency injection",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "example": "tsc && node example/index.js"
+  },
+  "keywords": ["babel", "plugin", "DI", "injection"],
+  "repository": {
+    "url": "git@github.com:erukiti/babel-plugin-dependency-injection.git"
+  },
+  "author": "SASAKI Shunsuke <erukiti+npm@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^8.0.41",
+    "babel-core": "^6.26.0",
+    "babylon": "^6.18.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
